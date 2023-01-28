@@ -1,6 +1,7 @@
-/// @description Insert description here
-// You can write your code in this editor
+draw_set_font(font_s1p20)
 
-self.stats.draw();
-// self.player.draw();
-self.playerUi.draw();
+stats.draw();
+
+skillsMenu.draw();
+
+selectedSkillUi.draw();

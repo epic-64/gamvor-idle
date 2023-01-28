@@ -1,4 +1,3 @@
-/// @description Insert description here
-// You can write your code in this editor
+stats.step();
 
-self.stats.step();
+selectedSkillUi.step();
