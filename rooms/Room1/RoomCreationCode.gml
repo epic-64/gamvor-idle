@@ -1,0 +1,4 @@
+enum Skill {
+	mining,
+	fishing,
+}
