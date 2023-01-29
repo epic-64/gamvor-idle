@@ -11,6 +11,7 @@
     {"id":{"name":"SkillFishing","path":"scripts/SkillFishing/SkillFishing.yy",},"order":3,},
     {"id":{"name":"TaskMineStone","path":"scripts/TaskMineStone/TaskMineStone.yy",},"order":5,},
     {"id":{"name":"SkillDisplay","path":"scripts/SkillDisplay/SkillDisplay.yy",},"order":2,},
+    {"id":{"name":"StringLib","path":"scripts/StringLib/StringLib.yy",},"order":0,},
     {"id":{"name":"Skill","path":"scripts/Skill/Skill.yy",},"order":0,},
     {"id":{"name":"font_s1p18","path":"fonts/font_s1p18/font_s1p18.yy",},"order":1,},
     {"id":{"name":"TaskMinePlatinum","path":"scripts/TaskMinePlatinum/TaskMinePlatinum.yy",},"order":1,},
@@ -24,6 +25,7 @@
     {"id":{"name":"font_s1p20","path":"fonts/font_s1p20/font_s1p20.yy",},"order":0,},
     {"id":{"name":"TaskMineIron","path":"scripts/TaskMineIron/TaskMineIron.yy",},"order":0,},
     {"id":{"name":"SkillsMenu","path":"scripts/SkillsMenu/SkillsMenu.yy",},"order":9,},
+    {"id":{"name":"font_s1p12","path":"fonts/font_s1p12/font_s1p12.yy",},"order":2,},
     {"id":{"name":"Button","path":"scripts/Button/Button.yy",},"order":0,},
     {"id":{"name":"Stats","path":"scripts/Stats/Stats.yy",},"order":0,},
     {"id":{"name":"fib","path":"scripts/fib/fib.yy",},"order":0,},
@@ -64,6 +66,7 @@
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Sprites","folderPath":"folders/Sprites.yy","order":1,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Tile Sets","folderPath":"folders/Tile Sets.yy","order":2,},
     {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Timelines","folderPath":"folders/Timelines.yy","order":8,},
+    {"resourceType":"GMFolder","resourceVersion":"1.0","name":"Strings","folderPath":"folders/Scripts/Strings.yy","order":11,},
   ],
   "AudioGroups": [
     {"resourceType":"GMAudioGroup","resourceVersion":"1.3","name":"audiogroup_default","targets":-1,},

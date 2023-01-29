@@ -6,7 +6,7 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	self.y = y;
 	
 	self.w = 400;
-	self.buttonHeight = 100;
+	self.buttonHeight = 40;
 	
 	skill = player.getSkill(game.selected_skill);
 	
@@ -14,7 +14,7 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	
 	taskButtons = [];
 	
-	var startY = y + 70;
+	var startY = y + 130;
 	var currY = startY;
 		
 	var startX = x;
@@ -64,7 +64,7 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 			return;
 		}
 		
-		skill.getTask(selectedTask).draw(x, y + 300);
+		skill.getTask(selectedTask).draw(x, y + 320);
 	}
 	
 	function swapToTask(skillKey)
