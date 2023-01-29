@@ -6,4 +6,5 @@ function TaskMineCopper(_player) : Task(_player) constructor {
 	self.requiredSeconds = 3;
 	self.xpReward = 5;
 	self.minLevel = 5;
+	self.image = sprite_copper;
 }
