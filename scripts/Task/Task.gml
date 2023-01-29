@@ -37,7 +37,7 @@ function Task(_player) constructor
 		if (progress >= 1) {
 			giveReward();
 			
-			startTime = current_time;
+			reset();
 		}
 	}
 	
@@ -45,7 +45,7 @@ function Task(_player) constructor
 	{
 		var line = 0;
 		
-		draw_text(x, y + lineHeight * line, "Task :" + name); line++;
+		draw_text(x, y + lineHeight * line, "Task: " + name); line++;
 		draw_text(x, y + lineHeight * line, "Takes: " + string_format(requiredSeconds, 1, 1) + " seconds"); line++;
 		draw_text(x, y + lineHeight * line, "Reward: " + string(xpReward) + " XP"); line++;
 		
@@ -53,5 +53,10 @@ function Task(_player) constructor
 		
 		draw_text(x, y + lineHeight * line, "tasks remaining: " + string(getTasksToNextLevel())); line++;
 		draw_text(x, y + lineHeight * line, "seconds remaining: " + string(getSecondsToNextLevel())); line++;
+	}
+	
+	function reset()
+	{
+		startTime = current_time;
 	}
 }

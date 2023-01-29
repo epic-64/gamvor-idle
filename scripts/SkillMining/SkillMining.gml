@@ -10,6 +10,20 @@ function SkillMining(player) : Skill() constructor
 	
 	tasks = [
 		new TaskMineCopper(player),
-		new TaskMinePlatinum(player)
+		new TaskMineIron(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMineCopper(player),
+		new TaskMinePlatinum(player),
 	];
 }
