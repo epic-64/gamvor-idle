@@ -9,9 +9,9 @@ function SkillMining(player) : Skill() constructor
 	maxLevel = 99;
 	
 	tasks = [
+		new TaskMineStone(player),
 		new TaskMineCopper(player),
 		new TaskMineIron(player),
-		new TaskMinePlatinum(player),
 		new TaskMinePlatinum(player),
 		new TaskMinePlatinum(player),
 		new TaskMinePlatinum(player),

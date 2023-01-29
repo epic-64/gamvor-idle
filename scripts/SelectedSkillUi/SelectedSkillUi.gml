@@ -9,7 +9,7 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	
 	skill = player.getSkill(game.selected_skill);
 	
-	skillDisplay = new SkillDisplay(skill, self.w);
+	skillDisplay = new SkillDisplay(skill, self.w, x, y);
 	
 	taskButtons = [];
 	
@@ -37,6 +37,8 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	
 	function step() // void
 	{
+		skillDisplay.step();
+		
 		for (var i = 0; i < array_length(taskButtons); i++) {
 			taskButtons[i].step();
 		}
@@ -50,7 +52,7 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	
 	function draw() // void
 	{
-		skillDisplay.draw(x, y);
+		skillDisplay.draw();
 		
 		for (var i = 0; i < array_length(taskButtons); i++) {
 			taskButtons[i].draw();
