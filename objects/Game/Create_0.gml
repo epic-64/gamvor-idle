@@ -1,3 +1,6 @@
+// CONSTANTS
+define_color_macros();
+
 version = "0.0.1";
 
 // DEBUGGING
