@@ -1,5 +1,7 @@
 function Skill() constructor
 {
+	tasks = [];
+	
 	function getXpRequirement() // int
 	{
 		var factor = 1 + (floor(level / 5) / 2);
@@ -36,5 +38,16 @@ function Skill() constructor
 	function getProgress() // float, min: 0.0, max: 1.0
 	{
 		return xp / getXpRequirement();
+	}
+	
+	function getTask(taskKey)
+	{
+		var closure = { taskKey: taskKey }
+		
+		var finder = function(item) { return item.key == taskKey; }
+		
+		var matches = array_filter(tasks, method(closure, finder));
+		
+		return array_first(matches);
 	}
 }

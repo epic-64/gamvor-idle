@@ -2,9 +2,9 @@ function SkillDisplay(skill) constructor
 {
 	self.skill = skill
 	
-	lineHeight = 30;
+	lineHeight = 40;
 	
-	xpBar = new ProgressBar(400, 10)
+	xpBar = new ProgressBar(400, 2)
 	
 	function draw(x, y)
 	{
@@ -12,9 +12,9 @@ function SkillDisplay(skill) constructor
 		draw_text(x, y + lineHeight * 0, text);
 		
 		text = string(skill.xp) + " / " + string(skill.getXpRequirement()) + " XP"
-		draw_text(x, y + lineHeight * 1, text);
+		draw_text(x + 200, y + lineHeight * 0, text);
 		
 		xpBar.setProgress(skill.getProgress());
-		xpBar.draw(x, y + lineHeight * 2);
+		xpBar.draw(x, y + lineHeight * 1);
 	}
 }

@@ -1,4 +1,4 @@
-draw_set_font(font_s1p20)
+draw_set_font(font_s1p18);
 
 stats.draw();
 
