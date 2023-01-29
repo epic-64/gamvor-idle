@@ -2,6 +2,7 @@ function Task(_player) constructor
 {
 	player = _player
 
+	minLevel = 0;
 	lineHeight = 40;
 	startTime = current_time;
 	

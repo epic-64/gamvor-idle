@@ -5,6 +5,7 @@
   "resources": [
     {"id":{"name":"Player","path":"scripts/Player/Player.yy",},"order":1,},
     {"id":{"name":"Task","path":"scripts/Task/Task.yy",},"order":2,},
+    {"id":{"name":"SkillSelectButton","path":"scripts/SkillSelectButton/SkillSelectButton.yy",},"order":4,},
     {"id":{"name":"TaskMineCopper","path":"scripts/TaskMineCopper/TaskMineCopper.yy",},"order":4,},
     {"id":{"name":"SkillFishing","path":"scripts/SkillFishing/SkillFishing.yy",},"order":3,},
     {"id":{"name":"SkillDisplay","path":"scripts/SkillDisplay/SkillDisplay.yy",},"order":2,},

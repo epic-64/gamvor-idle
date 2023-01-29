@@ -4,5 +4,6 @@ function TaskMineIron(_player) : Task(_player) constructor {
 	self.name = "Mine Iron";
 	self.shortName = "Iron";
 	self.requiredSeconds = 3;
-	self.xpReward = 5;
+	self.xpReward = 5
+	self.minLevel = 5;
 }
