@@ -1,10 +1,11 @@
-function SkillDisplay(skill) constructor
+function SkillDisplay(skill, _w) constructor
 {
 	self.skill = skill
+	self.w = _w;
 	
 	lineHeight = 40;
 	
-	xpBar = new ProgressBar(400, 2)
+	xpBar = new ProgressBar(w, 10)
 	
 	function draw(x, y)
 	{

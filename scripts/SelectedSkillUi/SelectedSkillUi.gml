@@ -5,13 +5,15 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 	self.x = x;
 	self.y = y;
 	
+	self.w = 480;
+	
 	skill = player.getSkill(game.selected_skill);
 	
-	skillDisplay = new SkillDisplay(skill);
+	skillDisplay = new SkillDisplay(skill, self.w);
 	
 	taskButtons = [];
 	
-	var startY = y + 80;
+	var startY = y + 70;
 	var currY = startY;
 		
 	var startX = x;
@@ -25,8 +27,8 @@ function SelectedSkillUi(_game, _player, x, y) constructor
 			currX = startX;
 		}
 		
-		var button = new TaskSelectButton(self, task.key, currX, currY, 100, 50, task.shortName);
-		currX += 100;
+		var button = new TaskSelectButton(self, task.key, currX, currY, w/4, 50, task.shortName);
+		currX += w/4;
 		
 		array_push(taskButtons, button);
 	}

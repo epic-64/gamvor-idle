@@ -5,4 +5,5 @@ function TaskMineCopper(_player) : Task(_player) constructor {
 	self.shortName = "Copper";
 	self.requiredSeconds = 3;
 	self.xpReward = 3;
+	self.minLevel = 0;
 }
