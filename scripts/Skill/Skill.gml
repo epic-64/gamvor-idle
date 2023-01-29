@@ -42,11 +42,11 @@ function Skill() constructor
 	
 	function getTask(taskKey)
 	{
-		var closure = { taskKey: taskKey }
+		var _closure = { taskKey: taskKey }
 		
 		var finder = function(item) { return item.key == taskKey; }
 		
-		var matches = array_filter(tasks, method(closure, finder));
+		var matches = array_filter(tasks, method(_closure, finder));
 		
 		return array_first(matches);
 	}
