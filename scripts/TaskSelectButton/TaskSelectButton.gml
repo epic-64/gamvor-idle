@@ -33,6 +33,8 @@ function TaskSelectButton(skillUi, taskKey, x, y, w, h, text): Button(x, y, w, h
 		}
 		
 		draw_set_color(c_white);
+		
+		draw_sprite(getTask().image, 0, x, y);
 	}
 	
 	function isSelected()
@@ -47,6 +49,11 @@ function TaskSelectButton(skillUi, taskKey, x, y, w, h, text): Button(x, y, w, h
 	
 	function getMinLevel()
 	{
-		return skillUi.skill.getTask(taskKey).minLevel;
+		return getTask().minLevel;
+	}
+	
+	function getTask() // task
+	{
+		return skillUi.skill.getTask(taskKey);
 	}
 }

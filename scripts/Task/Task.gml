@@ -5,6 +5,7 @@ function Task(_player) constructor
 	minLevel = 0;
 	lineHeight = 40;
 	startTime = current_time;
+	image = sprite_stone;
 	
 	progressBar = new ProgressBar(400, 10);
 	
