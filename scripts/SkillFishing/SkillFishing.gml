@@ -1,4 +1,4 @@
-function SkillFishing() : Skill() constructor
+function SkillFishing(_player) : Skill() constructor
 {
 	self.key = "fishing";
 	self.name = "Fishing";
