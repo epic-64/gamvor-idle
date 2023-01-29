@@ -6,4 +6,5 @@ function TaskMineStone(_player) : Task(_player) constructor {
 	self.requiredSeconds = 3;
 	self.xpReward = 3;
 	self.minLevel = 0;
+	self.image = sprite_stone;
 }

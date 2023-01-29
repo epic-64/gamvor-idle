@@ -15,6 +15,7 @@
     {"id":{"name":"font_s1p18","path":"fonts/font_s1p18/font_s1p18.yy",},"order":1,},
     {"id":{"name":"TaskMinePlatinum","path":"scripts/TaskMinePlatinum/TaskMinePlatinum.yy",},"order":1,},
     {"id":{"name":"ProgressBar","path":"scripts/ProgressBar/ProgressBar.yy",},"order":4,},
+    {"id":{"name":"sprite_copper","path":"sprites/sprite_copper/sprite_copper.yy",},"order":1,},
     {"id":{"name":"SkillMining","path":"scripts/SkillMining/SkillMining.yy",},"order":1,},
     {"id":{"name":"sprite_stone","path":"sprites/sprite_stone/sprite_stone.yy",},"order":0,},
     {"id":{"name":"Game","path":"objects/Game/Game.yy",},"order":0,},
